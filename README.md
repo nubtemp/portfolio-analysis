@@ -1,65 +1,73 @@
-# Stock Portfolio Performance Analysis (Excel)
+# Stock Performance Analysis Using Excel
 
-## Overview
-This project analyzes 5 years of historical stock market data using Microsoft Excel.  
-The goal was to learn core business analytics skills including data cleaning, return calculations, and financial visualization.
+## Project Overview
+This project analyzes approximately five years of historical daily stock market data using Microsoft Excel.  
+The objective was to develop foundational business analytics skills by working with real financial data, calculating returns, and visualizing long-term performance trends.
 
 Stocks analyzed:
-- SPY (S&P 500 ETF)
-- AAPL (Apple)
-- MSFT (Microsoft)
-- JPM (JPMorgan Chase)
+- **SPY** – S&P 500 ETF (market benchmark)
+- **AAPL** – Apple Inc.
+- **MSFT** – Microsoft Corporation
+- **JPM** – JPMorgan Chase & Co.
 
 ---
 
 ## Cumulative Return Comparison
-The chart below shows the cumulative growth of each stock over the selected time period.
+The chart below illustrates the cumulative growth of each stock over the analysis period.  
+All cumulative returns were calculated directly from daily percentage returns.
 
 ![Cumulative Returns](cumulative_returns.png)
 
+---
+
+## Methodology
+The analysis followed these steps:
+
+1. Organized daily closing prices for each stock
+2. Calculated **daily returns** using percentage change
+3. Computed **cumulative returns** to measure long-term growth
+4. Calculated summary statistics including:
+   - Average daily return
+   - Volatility (standard deviation of daily returns)
+5. Visualized cumulative performance using Excel line charts
+
+All calculations were performed manually using Excel formulas.
 
 ---
 
 ## Key Insights
-- AAPL and MSFT significantly outperformed the broader market (SPY) over the 5-year period  
-- SPY showed steadier growth with lower volatility compared to individual stocks  
-- JPM generally followed market trends but achieved lower cumulative growth than major tech stocks  
-
----
-
-## What I Did
-- Collected and organized 5 years of daily stock price data  
-- Calculated daily returns for each stock  
-- Computed cumulative returns to measure long-term performance  
-- Visualized stock performance using Excel line charts  
+- **AAPL and MSFT outperformed SPY**, indicating stronger long-term growth compared to the overall market
+- **SPY showed more stable performance**, serving as a lower-volatility benchmark
+- **JPM followed general market trends** but exhibited lower cumulative growth relative to technology stocks
+- Individual stocks offered higher upside but with increased variability compared to the index
 
 ---
 
 ## Tools Used
 - Microsoft Excel  
-- GitHub  
+- GitHub (project hosting and documentation)
 
 ---
 
-## Files
+## Files Included
 📊 **Excel Workbook**  
 [Download the full Excel analysis](Portfolio_Analysis.xlsx)
 
-📈 **Chart**
+📈 **Visualization**
 - `cumulative_returns.png`
-
 
 ---
 
 ## Skills Demonstrated
 - Financial data analysis  
 - Excel formulas and functions  
+- Return and cumulative return calculations  
 - Data visualization  
-- Analytical reasoning  
+- Analytical interpretation of financial trends  
 
 ---
 
-## Future Improvements
-- Add volatility and risk metrics  
-- Compare portfolio performance against SPY  
-- Automate analysis using Python or SQL  
+## Future Enhancements
+- Portfolio-level analysis with weighted allocations  
+- Risk-adjusted performance metrics (Sharpe ratio)  
+- Automation using Python or SQL  
