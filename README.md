@@ -15,7 +15,8 @@ Stocks analyzed:
 ## Cumulative Return Comparison
 The chart below shows the cumulative growth of each stock over the selected time period.
 
-![Cumulative Returns](charts/cumulative_returns.png)
+![Cumulative Returns](cumulative_returns.png)
+
 
 ---
 
