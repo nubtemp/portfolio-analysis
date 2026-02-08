@@ -36,10 +36,11 @@ All calculations were performed manually using Excel formulas.
 ---
 
 ## Key Insights
-- **AAPL and MSFT outperformed SPY**, indicating stronger long-term growth compared to the overall market
-- **SPY showed more stable performance**, serving as a lower-volatility benchmark
-- **JPM followed general market trends** but exhibited lower cumulative growth relative to technology stocks
-- Individual stocks offered higher upside but with increased variability compared to the index
+- JPM achieved the highest cumulative growth over the analyzed period
+- AAPL and MSFT also demonstrated strong long-term performance relative to SPY
+- SPY exhibited steadier, benchmark-level growth with lower volatility
+- Individual stocks outperformed the index but showed greater variability over time
+
 
 ---
 
