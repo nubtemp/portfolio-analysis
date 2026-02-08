@@ -46,7 +46,8 @@ The chart below shows the cumulative growth of each stock over the selected time
 [Download the full Excel analysis](Portfolio_Analysis.xlsx)
 
 📈 **Chart**
-- `charts/cumulative_returns.png`
+- `cumulative_returns.png`
+
 
 ---
 
